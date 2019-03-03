@@ -3,7 +3,7 @@ import java.util.Stack;
 /**
  * 实现可以拿到最小Min,最大Max值 的栈
  * @author yejiawei
- *
+ * 
  * 2019年3月1日
  */
 public class StackCanGetMaxMin{
