@@ -7,6 +7,7 @@ import service.TwoStackQueue;
 
 /**
  * 栈操作main方法类
+ * yjw
  */
 public class StackTestMain {
 	public static void main(String[] args) {
