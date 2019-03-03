@@ -1,5 +1,7 @@
 package testmain;
 
+import java.util.Stack;
+
 import service.StackCanGetMaxMin;
 import service.TwoStackQueue;
 
@@ -29,5 +31,17 @@ public class StackTestMain {
 		while(!queue.isEmpty()){
 			System.out.println(queue.poll());
 		}
+		
+		Stack<Integer> stack2 = new Stack<Integer>();
+		stack2.push(5);
+		stack2.push(4);
+		stack2.push(3);
+		stack2.push(2);
+		stack2.push(1);
+		System.out.println("µÝ¹éµ¹Ðð¿ªÊ¼");
+		while (!stack2.isEmpty()) {
+			System.out.println(stack2.pop());
+		}
+		System.out.println("µÝ¹éµ¹Ðð½áÊø");
 	}
 }
